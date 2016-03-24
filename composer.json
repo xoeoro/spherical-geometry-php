@@ -1,0 +1,25 @@
+{
+  "name": "xoeoro/spherical-geometry",
+  "description": "This library provides classes and functions for the computation of geometric data on the surface of the Earth. Code ported from the Google Maps Javascript API v3",
+  "keywords": ["Spherical Geometry", "Latitute-Longitude calculations"],
+  "homepage": "http://tubalmartin.github.com/spherical-geometry-php/",
+  "type": "library",
+  "license": ["MIT", "GPL-2.0+"],
+  "version": "1.1.1",
+  "authors": [
+    {
+      "name": "Tubal Martin",
+      "homepage":"http://tubalmartin.me"
+    },
+    {
+      "name": "Illia Novokshchenov",
+      "email": "xoeoro@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Xoeoro\\SphericalGeometry\\": "src/" }
+  },
+  "require": {
+    "php":">=5.3.2"
+  }
+}
